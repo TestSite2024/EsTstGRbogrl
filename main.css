@@ -165,6 +165,7 @@ white-space:normal;
   }  
   
 }
+/* landscape tablet mode */
 @media (min-height: 675px) and (min-width: 1024px){ 
   .pagetop h3 {
     font-size: calc(1.5rem + 1.2vh);
@@ -174,7 +175,7 @@ white-space:normal;
   }
 
     #boy{
-    line-height: 15vh !important;
+    line-height: 12vh !important;
   }
 
   .pagetop h4 {
@@ -184,7 +185,7 @@ white-space:normal;
     position:absolute;
     width: 26em;
     height: 26em; 
-    top: 68%;
+    top: 73%;
   }
 }
 @media (max-width: 375px), (max-height:667px) {
@@ -220,25 +221,25 @@ white-space:normal;
 
 @media (max-width: 320px) { 
    .pagetop h1 {
-    font-size: calc(3rem + 2vw);
+    font-size: calc(3.5rem + 2vw);
   }
   .pagetop h3 {
     font-size: calc(1.2rem + 0.5vw);
   }
   .pagetop h4 {
-    font-size: calc(0.7rem + 0.6vw) ;
+    font-size: calc(0.6rem + 0.6vw) ;
   }
   #boy {
-    line-height: 5vh !important;
+    line-height: 12vh !important;
   }
   .images{
-    max-width: 80% !important;
+    max-width: 70% !important;
   } 
   #scratcher-box {
     position:absolute;
-    width: 17em;
-    height: 17em; 
-    top: 65%;
+    width: 15em;
+    height: 15em; 
+    top: 68%;
   }
  
   #H3 {

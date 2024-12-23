@@ -56,7 +56,7 @@ body {
 
 }
 .pagetop h1 {
-font-family: "Mountains of Christmas", cursive;
+font-family: "Sunshiney", cursive;
 display:flexbox;
 font-weight: 400;
 flex-direction: column;
@@ -115,7 +115,12 @@ text-align: right;
   width: calc(50% - 10px);
 
 }
-
+#boy{
+  line-height: 20vh !important;
+}
+.images{
+  max-width: 300px !important;
+} 
 #reveal {
   float: right;
   display: inline-table;
@@ -205,6 +210,7 @@ text-align: right;
   .pagetop {
     top:0%;
   }
+  
 }
 @media (min-width: 672px) { 
   
@@ -226,7 +232,9 @@ text-align: right;
     top: 52%;
     left: 5%;
   } 
-  
+  .images{
+    max-width: 250px !important;
+  } 
 }
 @media screen and (max-height:290px){ 
   .pagetop h1 {
@@ -238,7 +246,12 @@ text-align: right;
     top: 52%;
     left: 3vw;
   } 
-  
+  #boy{
+    line-height: 25vh !important;
+  }
+  .images{
+    max-width: 250px !important;
+  } 
 }
 /* @media (max-height:351px) and (min-height:319){ 
   
